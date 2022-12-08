@@ -1,8 +1,11 @@
-funtion checkprime(num){
-	let  num = 47;
+
+let number=13;
+funtion checkprime(number){
+	
 	count = 0;
-	for(let i=0; i<num;i++){
-		if(num%i==0){
+	for(let i=0; i<number;i++){
+		if(number%i==0){
+
 		count++
 		}
 	if(count == 2){
@@ -10,4 +13,6 @@ funtion checkprime(num){
 	}else{
 		console.log("not Prime")
 	}
-}
+
+	}
+	checkprime(13);
